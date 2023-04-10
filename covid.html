@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Laman Tracking Covid</title>
+    <style>
+        .header{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px; 
+        }
+        .headermargin{
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .headermargin2{
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        a:hover{
+            opacity: 0.6;
+            text-decoration: none;
+        }
+        .hide {
+            display: none;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div style="background-color: #02435F;" class="header">
+            <div class="bar2 d-flex justify-content-between">
+                <div class="nav2 text-light">
+                    <i class="fa fa-info text-info mr-1" style="margin-right: 5px;"></i><span style="padding-left:3px ;">Portofolio Muhammad Fajar Ramadhan :)</span>
+                    <br>
+                </div>
+                <div class="nav2 text-right">
+                    <button type="button" class="btn btn-warning" style="margin-right: 5px;" disabled>Login</button>
+                    <button type="button" class="btn btn-warning" style="margin-left: 5px;" disabled>Registrasi</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header" style="background-color: white;">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="profile.html">
+                    <img src="https://profileme.app/wp-content/uploads/2020/05/illustration21.png" alt="..." class="rounded-circle" width="150" height="120">
+                    <span style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #02435F;font-size: 30px; padding-left: 10px;"><b>My Portofolio</b></span>
+                </a>
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="nav2 text-end" id="navbarNav" style="margin-left: 585px;">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item my-2" style="padding-left: 15px; padding-right: 5px;">
+                                <a href="#" class="text-nowrap" style="text-decoration: none;"><i class="fa fa-home" style="color: #02435F;"></i> <b class="text-dark">Beranda</b></a>
+                            </li>
+                            <li class="nav-item my-2" style="padding-left: 15px; padding-right: 5px;">
+                                <a href="#" class="text-nowrap" style="text-decoration: none;"><i class="fa-solid fa-id-badge" style="color: #02435F;"></i> <b class="text-dark">Profile</b></a>
+                            </li>
+                            <li class="nav-item my-2" style="padding-left: 15px; padding-right: 5px;">
+                                <a href="covid.html" class="text-nowrap" style="text-decoration: none;"><i class="fa-solid fa-virus-covid" style="color: #02435F;"></i> <b class="text-dark">Covid</b></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-tasks" style="color: #02435F;"></i><b class="text-dark"> Dokumentasi</b></a>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="https://www.w3schools.com/">W3 Schools</a></li>
+                                  <li><a class="dropdown-item" href="https://getbootstrap.com/">Bootstrap</a></li>
+                                  <li><a class="dropdown-item" href="https://rapidapi.com/api-sports/api/covid-193">Rapid Api</a></li>
+                                </ul>
+                              </li>
+                        </ul>
+                  </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="headermargin" style="background-color: yellow; border-radius: 10px;">
+            <p style="text-align: center; font-family: Bridge Type; font-size: 30px; color: #02435F;">Tracking Covid-19</p>
+        </div>
+
+        <div class="headermargin">
+            <br>
+                <div class="input-group input-group-lg" >
+                    <input type="text" class="inputElement form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Silahkan Input Negara" style="text-align: center; border-top-color: white; border-left-color: white; border-right-color: white; border-bottom-color: #02435F; margin-bottom: 15px; ">
+                </div>
+                <center>
+                    <button class="xbtn btn btn-warning btn-lg btn-block" style="color: #02435F; font-weight: 3px; margin-right: 5px;"> Cari Data</button>
+                    <button type="reset" value="iReset" id="xreset" class="btn btn-warning btn-lg btn-block" style="color: #02435F; font-weight: 3px; margin-left: 5px;"> Reset Data</button>
+                </center>
+            <br><br>
+        </div>
+
+        <div class="headermargin">
+            <div style="margin: 15px; text-align: center; font-family: Maven Pro; color: #02435F;">
+                <h2 class="countryCases"></h2>
+            </div>
+            <br>
+            <div class="justify-content-between" style="display: flex;">
+                <div class="" style="margin-left: 180px;">
+                    <div class="card cardx" style="width: 18rem; border-color: #02435F; border-radius: 3px; box-shadow: 10px 10px #02435F;">
+                        <div class="card-body btn-warning">
+                            <center><i class="fa-solid fa-gauge-high" style="padding-bottom: 20px; font-size: 50px; color: #02435F;"></i></center>
+                            <h5 class="card-title" style="color: #02435F; text-align: center;">Kasus Aktif</h5>
+                            <b><i><p class="activeCases" style="text-align: center; font-size: 25px; font-family: Candara Light; color: #02435F;"></p></i></b>
+                        </div>
+                      </div>
+                </div>
+                <div class="">
+                    <div class="card cardx" style="width: 18rem; border-color: #02435F; border-radius: 3px; box-shadow: 10px 10px #ffc107;">
+                        <div class="card-body" style="background-color: #02435F;">
+                            <center><i class="fa-solid fa-truck-medical" style="padding-bottom: 20px; font-size: 50px; color: #ffc107;"></i></center>
+                            <h5 class="card-title" style="color: #ffc107; text-align: center;">Kasus Baru</h5>
+                            <b><i><p class="newCases" style="text-align: center; font-size: 25px; font-family: Candara Light; color: #ffc107;"></p></i></b>
+                        </div>
+                      </div>
+                </div>
+                <div class="" style="margin-right: 180px;">
+                    <div class="card cardx" style="width: 18rem; border-color: #02435F; border-radius: 3px; box-shadow: 10px 10px #02435F;">
+                        <div class="card-body btn-warning">
+                            <center><i class="fa-solid fa-briefcase-medical" style="padding-bottom: 20px; font-size: 50px; color: #02435F;"></i></center>
+                            <h5 class="card-title" style="color: #02435F; text-align: center;">Kasus Ditangani</h5>
+                            <b><i><p class="recoveredCases" style="text-align: center; font-size: 25px; font-family: Candara Light; color: #02435F;"></p></i></b>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <br>
+            <div class="justify-content-between" style="display: flex;">
+                <div class="" style="margin-left: 180px;">
+                    <div class="card cardx" style="width: 18rem; border-color: #02435F; border-radius: 3px; box-shadow: 10px 10px #02435F;">
+                        <div class="card-body btn-warning">
+                            <center><i class="fa-solid fa-book-medical" style="padding-bottom: 20px; font-size: 50px; color: #02435F;"></i></center>
+                            <h5 class="card-title" style="color: #02435F; text-align: center;">Total Kasus</h5>
+                            <b><i><p class="totalCases" style="text-align: center; font-size: 25px; font-family: Candara Light; color: #02435F;"></p></i></b>
+                        </div>
+                      </div>
+                </div>
+                <div class="">
+                    <div class="card cardx" style="width: 18rem; border-color: #02435F; border-radius: 3px; box-shadow: 10px 10px #ffc107;">
+                        <div class="card-body" style="background-color: #02435F;">
+                            <center><i class="fa-solid fa-person-falling-burst" style="padding-bottom: 20px; font-size: 50px; color: #ffc107;"></i></center>
+                            <h5 class="card-title" style="color: #ffc107; text-align: center;">Total Kematian</h5>
+                            <b><i><p class="totalDeaths" style="text-align: center; font-size: 25px; font-family: Candara Light; color: #ffc107;"></p></i></b>
+                        </div>
+                      </div>
+                </div>
+                <div class="" style="margin-right: 180px;">
+                    <div class="card cardx" style="width: 18rem; border-color: #02435F; border-radius: 3px; box-shadow: 10px 10px #02435F;">
+                        <div class="card-body btn-warning">
+                            <center><i class="fa-solid fa-head-side-cough" style="padding-bottom: 20px; font-size: 50px; color: #02435F;"></i></center>
+                            <h5 class="card-title" style="color: #02435F; text-align: center;">Total Tes Covid</h5>
+                            <b><i><p class="totalTests" style="text-align: center; font-size: 25px; font-family: Candara Light; color: #02435F;"></p></i></b>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+
+        <div>
+            <footer class="bg-dark text-light py-5">
+                <div class="px-5">
+                    <div class="row mb-4">
+                        <div class="col-md-4 text-center">
+                            <img src="https://profileme.app/wp-content/uploads/2020/05/illustration21.png" alt="..." class="rounded-circle" width="150" height="120">
+                            <br>
+                            <h4><b>My Portofolio</b></h4>
+                        </div>
+                        <div class="col-md-2">
+                            <h4 class="subjudul1 text-light"><b>Menu</b></h4>
+                            <div class="mb-1">
+                                <a href="#" class="text-light pl-0" style="text-decoration: none;">Beranda</a>
+                            </div>
+                            <div class="mb-1">
+                                <a href="#" class="text-light pl-0" style="text-decoration: none;">Profile</a>
+                            </div>
+                            <div class="mb-1">
+                                <a href="covid.html" class="text-light pl-0" style="text-decoration: none;">Covid</a>
+                            </div>
+                            <div class="mb-1">
+                                <a href="https://getbootstrap.com/" class="text-light pl-0" style="text-decoration: none;">Dokumentasi</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="subjudul1">
+                            <div>
+                                <h4 class="text-light" style="padding-bottom: 10px;"><b>My Social Media</b></h4>
+                                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram mr-4" style="font-size: 30px; color: red; padding-right: 20px; margin-bottom: 5px;"></i></a>
+                                <a href="https://web.facebook.com/"><i class="fa-brands fa-facebook mr-4" style="font-size: 30px; color: blue; margin-right: 20px;"></i></a>
+                                <a href="https://twitter.com/"><i class="fa-brands fa-twitter" style="font-size: 30px; color: aqua;"></i></a>
+                                <br>      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+    <script src="covid.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
