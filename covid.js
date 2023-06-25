@@ -8,7 +8,7 @@ const inputElement = document.querySelector(".inputElement");
         const options = {
 	        method: 'GET',
 	        headers: {
-		        'X-RapidAPI-Key': '',
+		        'X-RapidAPI-Key': 'f6f1cf120dmsh08290f8ff6c5d77p100314jsn57fc5d5adf46',
 		        'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
 	        }
         };
